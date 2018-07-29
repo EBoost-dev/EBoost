@@ -78,9 +78,9 @@ deploy:
   skip_cleanup: true
   provider: releases
   api_key:
-    secure: $CRYPTOS_TRAVIS_KEY
+    secure: oiMZCF8HaclQaI0AkhuqFXkrDGOP1ZNdET/ZGYilNh0fjNKTZ+6IMhjVxObLnYAOHMxMIKA6b6Q0WN9Rt3X7e8qukTiKrQ21mPKHFsJnwlMeyUKWqHNCUk70MPsOr8V3to0F5IetFTBG90+ofROR/ZgJVFifkAA90B7ITYnyQsVNkwa5Ss2ORl2/mTV8CVw3CYDHFEMPMHuOeJEz9Bkq6hGgmvzBno73Tw0MGasbhCGdi1YRubHigGWoAXpCj1sY8ZZhxex/CvJfRaaCZcU476mY3BPO3UEkRpPdvr9qM1vL9/2JHv7+lrwQ/J1qwNgTiDC09kSqsCpCXGHVzXBoFeVkR7kw9LfiCO7NTI7DlN8v8uagh2rdbdLnjfjdXDEMqGOpsLX6jaiFrVlLr6kWtSMOsy83e0sCZv5ysLXN3jy/LRErkBCArDcR7buxYU2a6d3HIXMewrsD/9rOI2zE9Q7MCrQ4qpyFGGQ1S4OMYFls6YJx7weSNTMr69AnZ3MMBlKrkuVQcfPgXqEOognY33KutHdxPHX8N5RLqmdWwcZeVEk9hGhr6RQuNPAU04GBuhQ6XZ1XMHil5qywZzGYqavMhz2LDaSAE0B1dW8RvfP5QSOXX6veVZDZeMeiCKH4ZGZzuHZeXAYMsArw7vxdQk4spjIBqAifpFZZkPhrWUY=
   file:
     - ${OUTDIR}/../eboost-$HOST.tar.gz
   on:
-    repo: ahmedbodi/5b5da7865d2f1e72aff0c96c
+    repo: EBoost-dev/EBoost
     tags: true
